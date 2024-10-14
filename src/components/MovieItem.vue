@@ -342,4 +342,34 @@ function formatTime(timeStr) {
 .highlight {
   background-color: #4caf50;
 }
+
+@media (max-width: 768px) {
+  .movie-item {
+    grid-template-columns: 2fr 50px 1fr;
+  }
+
+  .exhibition-type img {
+    width: 30px;
+  }
+
+  .movie-title {
+    min-width: 50px;
+  }
+  .movie-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .time {
+    margin: 0;
+  }
+
+  .audio-times {
+    gap: 5px;
+  }
+  /* .movie-list {
+    margin: 10px 20px;
+  } */
+}
 </style>

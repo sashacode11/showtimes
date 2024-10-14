@@ -16,4 +16,11 @@ import MovieItem from './MovieItem.vue';
   flex-direction: column;
   overflow: auto;
 }
+
+@media (max-width: 768px) {
+  .movie-list {
+    margin: 5px;
+    min-height: 80vh;
+  }
+}
 </style>

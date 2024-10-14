@@ -32,4 +32,10 @@ footer {
   background-color: #841f1f;
   bottom: 0;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+}
 </style>
