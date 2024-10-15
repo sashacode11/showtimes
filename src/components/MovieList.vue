@@ -74,7 +74,9 @@ const boxOfficeData = ref(null);
 
 onMounted(async () => {
   try {
-    const response = await fetch('/json/0725-BoxOffice.json');
+    const response = await fetch(
+      `${process.env.BASE_URL}json/0725-BoxOffice.json`
+    );
     boxOfficeData.value = await response.json();
   } catch (error) {
     console.error('Error fetching the data: ', error);
