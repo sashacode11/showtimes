@@ -47,8 +47,8 @@
         <div v-else>
           <img
             v-if="groupedMovie.vip === 'S'"
-            :src="`${process.env.BASE_URL}/session/VP_Black_.png`"
-            alt="session Image"
+            src="`${process.env.BASE_URL}/session/VP_Black_.png`"
+            alt="vips Image"
           />
         </div>
       </div>
