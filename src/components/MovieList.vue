@@ -136,29 +136,29 @@ function getVipClass(vip) {
 function getCensorship(censorship) {
   switch (censorship) {
     case '1':
-      return '/censure/1.png';
+      return `${process.env.BASE_URL}/censure/1.png`;
     case '2':
-      return '/censure/2.png';
+      return `${process.env.BASE_URL}/censure/2.png`;
     case '3':
-      return '/censure/3.png';
+      return `${process.env.BASE_URL}/censure/3.png`;
     case '4':
-      return '/censure/4.png';
+      return `${process.env.BASE_URL}/censure/4.png`;
     case '5':
-      return '/censure/5.png';
+      return `${process.env.BASE_URL}/censure/5.png`;
     case '6':
-      return '/censure/6.png';
+      return `${process.env.BASE_URL}/censure/6.png`;
     case '13':
-      return '/censure/13.png';
+      return `${process.env.BASE_URL}/censure/13.png`;
     case '14':
-      return '/censure/14.png';
+      return `${process.env.BASE_URL}/censure/14.png`;
     case '15':
-      return '/censure/15.png';
+      return `${process.env.BASE_URL}/censure/15.png`;
     case '16':
-      return '/censure/16.png';
+      return `${process.env.BASE_URL}/censure/16.png`;
     case '17':
-      return '/censure/17.png';
+      return `${process.env.BASE_URL}/censure/17.png`;
     case '18':
-      return '/censure/18.png';
+      return `${process.env.BASE_URL}/censure/18.png`;
     default:
       return '';
   }
