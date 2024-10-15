@@ -1,0 +1,1351 @@
+{
+  "BoxOffice": [
+    {
+      "chair": [
+        {
+          "capacity": "239",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "01",
+      "code": "5732",
+      "time": "13h50",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "248",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "01",
+      "code": "5732",
+      "time": "16h50",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "236",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "01",
+      "code": "5732",
+      "time": "19h50",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "248",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "01",
+      "code": "5688",
+      "time": "22h50",
+      "movie": "ZUZUBALANDIA - O FILME",
+      "censorship": "1",
+      "audio": "V",
+      "session": "N",
+      "vip": "N",
+      "duration": "60",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "B2400228400000",
+      "censorshipMessage": "11",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "240",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "02",
+      "code": "5744",
+      "time": "13h30",
+      "movie": "TRANSFORMERS: O INICIO",
+      "censorship": "2",
+      "audio": "D",
+      "session": "N",
+      "vip": "N",
+      "duration": "105",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400283700000",
+      "censorshipMessage": "09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "246",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "02",
+      "code": "5744",
+      "time": "16h00",
+      "movie": "TRANSFORMERS: O INICIO",
+      "censorship": "2",
+      "audio": "D",
+      "session": "N",
+      "vip": "N",
+      "duration": "105",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400283700000",
+      "censorshipMessage": "09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "242",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "02",
+      "code": "5732",
+      "time": "18h30",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "D",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "242",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "02",
+      "code": "5732",
+      "time": "21h30",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "D",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "246",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "03",
+      "code": "5701",
+      "time": "13h00",
+      "movie": "PRINCESA ADORMECIDA",
+      "censorship": "2",
+      "audio": "V",
+      "session": "N",
+      "vip": "N",
+      "duration": "80",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "B2300375400000",
+      "censorshipMessage": "09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "246",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "03",
+      "code": "5701",
+      "time": "15h00",
+      "movie": "PRINCESA ADORMECIDA",
+      "censorship": "2",
+      "audio": "V",
+      "session": "N",
+      "vip": "N",
+      "duration": "80",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "B2300375400000",
+      "censorshipMessage": "09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "246",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "03",
+      "code": "5701",
+      "time": "17h00",
+      "movie": "PRINCESA ADORMECIDA",
+      "censorship": "2",
+      "audio": "V",
+      "session": "N",
+      "vip": "N",
+      "duration": "80",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "B2300375400000",
+      "censorshipMessage": "09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "246",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "03",
+      "code": "5752",
+      "time": "19h00",
+      "movie": "PASSAGRANA",
+      "censorship": "5",
+      "audio": "V",
+      "session": "N",
+      "vip": "N",
+      "duration": "105",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "B2400272700000",
+      "censorshipMessage": "04;08;12",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "246",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "03",
+      "code": "5752",
+      "time": "21h30",
+      "movie": "PASSAGRANA",
+      "censorship": "5",
+      "audio": "V",
+      "session": "N",
+      "vip": "N",
+      "duration": "105",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "B2400272700000",
+      "censorshipMessage": "04;08;12",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "240",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "04",
+      "code": "5715",
+      "time": "13h05",
+      "movie": "OS FANTASMAS AINDA SE DIVERTEM: BEETLEJUICE",
+      "censorship": "4",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "105",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400251800000",
+      "censorshipMessage": "03;07;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "229",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "04",
+      "code": "5715",
+      "time": "15h30",
+      "movie": "OS FANTASMAS AINDA SE DIVERTEM: BEETLEJUICE",
+      "censorship": "4",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "105",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400251800000",
+      "censorshipMessage": "03;07;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "244",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "04",
+      "code": "5732",
+      "time": "18h10",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "237",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "04",
+      "code": "5732",
+      "time": "21h10",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "262",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "05",
+      "code": "5688",
+      "time": "13h10",
+      "movie": "ZUZUBALANDIA - O FILME",
+      "censorship": "1",
+      "audio": "V",
+      "session": "N",
+      "vip": "N",
+      "duration": "60",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "B2400228400000",
+      "censorshipMessage": "11",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "20",
+          "abbreviation": "DB",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "54.00"
+            }
+          ]
+        },
+        {
+          "capacity": "262",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "05",
+      "code": "5733",
+      "time": "14h50",
+      "movie": "CORINGA: DELIRIO A DOIS DBOX",
+      "censorship": "5",
+      "audio": "D",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "22",
+          "abbreviation": "DB",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "54.00"
+            }
+          ]
+        },
+        {
+          "capacity": "262",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "05",
+      "code": "5733",
+      "time": "17h50",
+      "movie": "CORINGA: DELIRIO A DOIS DBOX",
+      "censorship": "5",
+      "audio": "D",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "19",
+          "abbreviation": "DB",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "54.00"
+            }
+          ]
+        },
+        {
+          "capacity": "256",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "05",
+      "code": "5733",
+      "time": "20h50",
+      "movie": "CORINGA: DELIRIO A DOIS DBOX",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "30",
+          "abbreviation": "DB",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "65.00"
+            }
+          ]
+        },
+        {
+          "capacity": "225",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "47.00"
+            }
+          ]
+        }
+      ],
+      "room": "06",
+      "code": "5733",
+      "time": "12h50",
+      "movie": "CORINGA: DELIRIO A DOIS DBOX",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "XD",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "30",
+          "abbreviation": "DB",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "65.00"
+            }
+          ]
+        },
+        {
+          "capacity": "234",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "47.00"
+            }
+          ]
+        }
+      ],
+      "room": "06",
+      "code": "5733",
+      "time": "15h50",
+      "movie": "CORINGA: DELIRIO A DOIS DBOX",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "XD",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "30",
+          "abbreviation": "DB",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "65.00"
+            }
+          ]
+        },
+        {
+          "capacity": "231",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "47.00"
+            }
+          ]
+        }
+      ],
+      "room": "06",
+      "code": "5733",
+      "time": "18h50",
+      "movie": "CORINGA: DELIRIO A DOIS DBOX",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "XD",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "30",
+          "abbreviation": "DB",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "65.00"
+            }
+          ]
+        },
+        {
+          "capacity": "227",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "47.00"
+            }
+          ]
+        }
+      ],
+      "room": "06",
+      "code": "5733",
+      "time": "21h50",
+      "movie": "CORINGA: DELIRIO A DOIS DBOX",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "XD",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "192",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "07",
+      "code": "5748",
+      "time": "14h45",
+      "movie": "A FORJA – O PODER DA TRANSFORMACAO",
+      "censorship": "1",
+      "audio": "D",
+      "session": "N",
+      "vip": "N",
+      "duration": "120",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400305500000",
+      "censorshipMessage": "14",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "200",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "07",
+      "code": "5732",
+      "time": "17h30",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "D",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "200",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "07",
+      "code": "5732",
+      "time": "20h30",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "D",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "189",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "08",
+      "code": "5685",
+      "time": "13h20",
+      "movie": "E ASSIM QUE ACABA",
+      "censorship": "4",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "130",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400176500000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "201",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "08",
+      "code": "5732",
+      "time": "16h20",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "D",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "201",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "08",
+      "code": "5732",
+      "time": "19h20",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "D",
+      "session": "N",
+      "vip": "N",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "201",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "36.00"
+            }
+          ]
+        }
+      ],
+      "room": "08",
+      "code": "5762",
+      "time": "22h15",
+      "movie": "PACTO DE REDENCAO",
+      "censorship": "4",
+      "audio": "L",
+      "session": "N",
+      "vip": "N",
+      "duration": "115",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400055900000",
+      "censorshipMessage": "02;07;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "70",
+          "abbreviation": "VP",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        }
+      ],
+      "room": "09",
+      "code": "5744",
+      "time": "12h50",
+      "movie": "TRANSFORMERS: O INICIO",
+      "censorship": "2",
+      "audio": "D",
+      "session": "N",
+      "vip": "S",
+      "duration": "105",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400283700000",
+      "censorshipMessage": "09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "70",
+          "abbreviation": "VP",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        }
+      ],
+      "room": "09",
+      "code": "5744",
+      "time": "15h20",
+      "movie": "TRANSFORMERS: O INICIO",
+      "censorship": "2",
+      "audio": "D",
+      "session": "N",
+      "vip": "S",
+      "duration": "105",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400283700000",
+      "censorshipMessage": "09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "61",
+          "abbreviation": "VP",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        }
+      ],
+      "room": "09",
+      "code": "5756",
+      "time": "18h00",
+      "movie": "A SUBSTANCIA",
+      "censorship": "6",
+      "audio": "L",
+      "session": "N",
+      "vip": "S",
+      "duration": "140",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400277300000",
+      "censorshipMessage": "07;08;12",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "70",
+          "abbreviation": "VP",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        }
+      ],
+      "room": "09",
+      "code": "5756",
+      "time": "21h00",
+      "movie": "A SUBSTANCIA",
+      "censorship": "6",
+      "audio": "L",
+      "session": "N",
+      "vip": "S",
+      "duration": "140",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400277300000",
+      "censorshipMessage": "07;08;12",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "72",
+          "abbreviation": "VP",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        }
+      ],
+      "room": "10",
+      "code": "5768",
+      "time": "13h20",
+      "movie": "PLACA MAE",
+      "censorship": "1",
+      "audio": "V",
+      "session": "N",
+      "vip": "S",
+      "duration": "105",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "B2200442900000",
+      "censorshipMessage": "05;11",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "72",
+          "abbreviation": "VP",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        }
+      ],
+      "room": "10",
+      "code": "5768",
+      "time": "16h00",
+      "movie": "PLACA MAE",
+      "censorship": "1",
+      "audio": "V",
+      "session": "N",
+      "vip": "S",
+      "duration": "105",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "B2200442900000",
+      "censorshipMessage": "05;11",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "69",
+          "abbreviation": "VP",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        }
+      ],
+      "room": "10",
+      "code": "5713",
+      "time": "18h40",
+      "movie": "LONGLEGS - VINCULO MORTAL",
+      "censorship": "6",
+      "audio": "L",
+      "session": "N",
+      "vip": "S",
+      "duration": "100",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400164300000",
+      "censorshipMessage": "03;08;12",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "66",
+          "abbreviation": "VP",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        }
+      ],
+      "room": "10",
+      "code": "5702",
+      "time": "21h30",
+      "movie": "VIUVA CLICQUOT - A MULHER QUE FORMOU UM IMPERIO",
+      "censorship": "4",
+      "audio": "L",
+      "session": "N",
+      "vip": "S",
+      "duration": "90",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400256800000",
+      "censorshipMessage": "02;07;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "0",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        },
+        {
+          "capacity": "78",
+          "abbreviation": "VP",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        }
+      ],
+      "room": "11",
+      "code": "5732",
+      "time": "14h10",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "S",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "0",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        },
+        {
+          "capacity": "92",
+          "abbreviation": "VP",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        }
+      ],
+      "room": "11",
+      "code": "5732",
+      "time": "17h10",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "S",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    },
+    {
+      "chair": [
+        {
+          "capacity": "0",
+          "abbreviation": "RE",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        },
+        {
+          "capacity": "76",
+          "abbreviation": "VP",
+          "prices": [
+            {
+              "name": "Regular",
+              "prices": "66.00"
+            }
+          ]
+        }
+      ],
+      "room": "11",
+      "code": "5732",
+      "time": "20h10",
+      "movie": "CORINGA: DELIRIO A DOIS",
+      "censorship": "5",
+      "audio": "L",
+      "session": "N",
+      "vip": "S",
+      "duration": "135",
+      "places": "M",
+      "exhibition": "NO",
+      "cineCode": "725",
+      "ancine": "E2400314300000",
+      "censorshipMessage": "07;08;09",
+      "highlight": "0"
+    }
+  ]
+}
