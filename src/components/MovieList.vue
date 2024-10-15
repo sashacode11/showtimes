@@ -47,7 +47,7 @@
         <div v-else>
           <img
             v-if="groupedMovie.vip === 'S'"
-            :src="`${baseUrl}session/VP_Black_.png`"
+            src="session/VP_Black_.png"
             alt="vips Image"
           />
         </div>
@@ -69,13 +69,13 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue';
 // import boxOfficeData from '@/assets/json/0725-BoxOffice.json';
-const baseUrl = process.env.BASE_URL || '/';
+// const baseUrl = process.env.BASE_URL || '/';
 
 const boxOfficeData = ref(null);
 
 onMounted(async () => {
   try {
-    const response = await fetch(`${baseUrl}json/0725-BoxOffice.json`);
+    const response = await fetch('json/0725-BoxOffice.json');
     boxOfficeData.value = await response.json();
   } catch (error) {
     console.error('Error fetching the data: ', error);
@@ -135,29 +135,29 @@ function getVipClass(vip) {
 function getCensorship(censorship) {
   switch (censorship) {
     case '1':
-      return `${baseUrl}censure/1.png`;
+      return 'censure/1.png';
     case '2':
-      return `${baseUrl}censure/2.png`;
+      return 'censure/2.png';
     case '3':
-      return `${baseUrl}censure/3.png`;
+      return 'censure/3.png';
     case '4':
-      return `${baseUrl}censure/4.png`;
+      return 'censure/4.png';
     case '5':
-      return `${baseUrl}censure/5.png`;
+      return 'censure/5.png';
     case '6':
-      return `${baseUrl}censure/6.png`;
+      return 'censure/6.png';
     case '13':
-      return `${baseUrl}censure/13.png`;
+      return 'censure/13.png';
     case '14':
-      return `${baseUrl}censure/14.png`;
+      return 'censure/14.png';
     case '15':
-      return `${baseUrl}censure/15.png`;
+      return 'censure/15.png';
     case '16':
-      return `${baseUrl}censure/16.png`;
+      return 'censure/16.png';
     case '17':
-      return `${baseUrl}censure/17.png`;
+      return 'censure/17.png';
     case '18':
-      return `${baseUrl}censure/18.png`;
+      return 'censure/18.png';
     default:
       return '';
   }
@@ -201,15 +201,15 @@ function getAudioType(audioCode) {
 function getImage(exhibition) {
   switch (exhibition) {
     case 'NO':
-      return `${baseUrl}session/2D_Black_.png`;
+      return 'session/2D_Black_.png';
     case '3D':
-      return `${baseUrl}session/3D_Black_.png`;
+      return 'session/3D_Black_.png';
     case 'XD':
-      return `${baseUrl}session/XD_Black_.png`;
+      return 'session/XD_Black_.png';
     case 'X3':
       return {
-        threeD: `${baseUrl}session/3D_Black_.png`,
-        xD: `${baseUrl}session/XD_Black_.png`,
+        threeD: 'session/3D_Black_.png',
+        xD: 'session/XD_Black_.png',
       };
     default:
       return '';
