@@ -75,9 +75,7 @@ const boxOfficeData = ref(null);
 
 onMounted(async () => {
   try {
-    const response = await fetch(
-      `${process.env.BASE_URL}json/0725-BoxOffice.json`
-    );
+    const response = await fetch(`${baseUrl}json/0725-BoxOffice.json`);
     boxOfficeData.value = await response.json();
   } catch (error) {
     console.error('Error fetching the data: ', error);
@@ -137,29 +135,29 @@ function getVipClass(vip) {
 function getCensorship(censorship) {
   switch (censorship) {
     case '1':
-      return `${process.env.BASE_URL}/censure/1.png`;
+      return `${baseUrl}censure/1.png`;
     case '2':
-      return `${process.env.BASE_URL}/censure/2.png`;
+      return `${baseUrl}censure/2.png`;
     case '3':
-      return `${process.env.BASE_URL}/censure/3.png`;
+      return `${baseUrl}censure/3.png`;
     case '4':
-      return `${process.env.BASE_URL}/censure/4.png`;
+      return `${baseUrl}censure/4.png`;
     case '5':
-      return `${process.env.BASE_URL}/censure/5.png`;
+      return `${baseUrl}censure/5.png`;
     case '6':
-      return `${process.env.BASE_URL}/censure/6.png`;
+      return `${baseUrl}censure/6.png`;
     case '13':
-      return `${process.env.BASE_URL}/censure/13.png`;
+      return `${baseUrl}censure/13.png`;
     case '14':
-      return `${process.env.BASE_URL}/censure/14.png`;
+      return `${baseUrl}censure/14.png`;
     case '15':
-      return `${process.env.BASE_URL}/censure/15.png`;
+      return `${baseUrl}censure/15.png`;
     case '16':
-      return `${process.env.BASE_URL}/censure/16.png`;
+      return `${baseUrl}censure/16.png`;
     case '17':
-      return `${process.env.BASE_URL}/censure/17.png`;
+      return `${baseUrl}censure/17.png`;
     case '18':
-      return `${process.env.BASE_URL}/censure/18.png`;
+      return `${baseUrl}censure/18.png`;
     default:
       return '';
   }
@@ -203,15 +201,15 @@ function getAudioType(audioCode) {
 function getImage(exhibition) {
   switch (exhibition) {
     case 'NO':
-      return `${process.env.BASE_URL}/session/2D_Black_.png`;
+      return `${baseUrl}session/2D_Black_.png`;
     case '3D':
-      return `${process.env.BASE_URL}/session/3D_Black_.png`;
+      return `${baseUrl}session/3D_Black_.png`;
     case 'XD':
-      return `${process.env.BASE_URL}/session/XD_Black_.png`;
+      return `${baseUrl}session/XD_Black_.png`;
     case 'X3':
       return {
-        threeD: `${process.env.BASE_URL}/session/3D_Black_.png`,
-        xD: `${process.env.BASE_URL}/session/XD_Black_.png`,
+        threeD: `${baseUrl}session/3D_Black_.png`,
+        xD: `${baseUrl}session/XD_Black_.png`,
       };
     default:
       return '';
