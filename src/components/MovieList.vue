@@ -47,8 +47,8 @@
         <div v-else>
           <img
             v-if="groupedMovie.vip === 'S'"
-            src="/session/VP_Black_.png"
-            alt=""
+            :src="`${process.env.BASE_URL}/session/VP_Black_.png`"
+            alt="session Image"
           />
         </div>
       </div>
@@ -202,15 +202,15 @@ function getAudioType(audioCode) {
 function getImage(exhibition) {
   switch (exhibition) {
     case 'NO':
-      return '/session/2D_Black_.png';
+      return `${process.env.BASE_URL}/session/2D_Black_.png`;
     case '3D':
-      return '/session/3D_Black_.png';
+      return `${process.env.BASE_URL}/session/3D_Black_.png`;
     case 'XD':
-      return '/session/XD_Black_.png';
+      return `${process.env.BASE_URL}/session/XD_Black_.png`;
     case 'X3':
       return {
-        threeD: '/session/3D_Black_.png',
-        xD: '/session/XD_Black_.png',
+        threeD: `${process.env.BASE_URL}/session/3D_Black_.png`,
+        xD: `${process.env.BASE_URL}/session/XD_Black_.png`,
       };
     default:
       return '';
