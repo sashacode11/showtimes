@@ -47,7 +47,7 @@
         <div v-else>
           <img
             v-if="groupedMovie.vip === 'S'"
-            src="`${process.env.BASE_URL}/session/VP_Black_.png`"
+            :src="`${baseUrl}session/VP_Black_.png`"
             alt="vips Image"
           />
         </div>
@@ -69,6 +69,7 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue';
 // import boxOfficeData from '@/assets/json/0725-BoxOffice.json';
+const baseUrl = process.env.BASE_URL || '/';
 
 const boxOfficeData = ref(null);
 
