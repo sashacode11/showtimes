@@ -47,7 +47,7 @@
         <div v-else>
           <img
             v-if="groupedMovie.vip === 'S'"
-            src="@/assets/session/VP_Black_.png"
+            src="/session/VP_Black_.png"
             alt=""
           />
         </div>
@@ -67,14 +67,30 @@
 </template>
 
 <script setup>
-import { computed } from 'vue';
-import boxOfficeData from '@/assets/json/0725-BoxOffice.json';
+import { computed, onMounted, ref } from 'vue';
+// import boxOfficeData from '@/assets/json/0725-BoxOffice.json';
+
+const boxOfficeData = ref(null);
+
+onMounted(async () => {
+  try {
+    const response = await fetch('/json/0725-BoxOffice.json');
+    boxOfficeData.value = await response.json();
+  } catch (error) {
+    console.error('Error fetching the data: ', error);
+  }
+});
 
 const groupedMovies = computed(() => {
   const grouped = {};
   const currentTime = new Date();
 
-  boxOfficeData.BoxOffice.forEach(movie => {
+  // check if data has been fetched
+  if (!boxOfficeData.value || !boxOfficeData.value.BoxOffice) {
+    return [];
+  }
+
+  boxOfficeData.value.BoxOffice.forEach(movie => {
     const movieTime = parseTime(movie.time);
 
     if (movieTime > currentTime) {
@@ -118,29 +134,29 @@ function getVipClass(vip) {
 function getCensorship(censorship) {
   switch (censorship) {
     case '1':
-      return require('@/assets/censure/1.png');
+      return '/censure/1.png';
     case '2':
-      return require('@/assets/censure/2.png');
+      return '/censure/2.png';
     case '3':
-      return require('@/assets/censure/3.png');
+      return '/censure/3.png';
     case '4':
-      return require('@/assets/censure/4.png');
+      return '/censure/4.png';
     case '5':
-      return require('@/assets/censure/5.png');
+      return '/censure/5.png';
     case '6':
-      return require('@/assets/censure/6.png');
+      return '/censure/6.png';
     case '13':
-      return require('@/assets/censure/13.png');
+      return '/censure/13.png';
     case '14':
-      return require('@/assets/censure/14.png');
+      return '/censure/14.png';
     case '15':
-      return require('@/assets/censure/15.png');
+      return '/censure/15.png';
     case '16':
-      return require('@/assets/censure/16.png');
+      return '/censure/16.png';
     case '17':
-      return require('@/assets/censure/17.png');
+      return '/censure/17.png';
     case '18':
-      return require('@/assets/censure/18.png');
+      return '/censure/18.png';
     default:
       return '';
   }
@@ -184,15 +200,15 @@ function getAudioType(audioCode) {
 function getImage(exhibition) {
   switch (exhibition) {
     case 'NO':
-      return require('@/assets/session/2D_Black_.png');
+      return '/session/2D_Black_.png';
     case '3D':
-      return require('@/assets/session/3D_Black_.png');
+      return '/session/3D_Black_.png';
     case 'XD':
-      return require('@/assets/session/XD_Black_.png');
+      return '/session/XD_Black_.png';
     case 'X3':
       return {
-        threeD: require('@/assets/session/3D_Black_.png'),
-        xD: require('@/assets/session/XD_Black_.png'),
+        threeD: '/session/3D_Black_.png',
+        xD: '/session/XD_Black_.png',
       };
     default:
       return '';
