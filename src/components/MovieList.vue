@@ -2,7 +2,7 @@
   <div class="movie-list">
     <div
       class="movie-item"
-      v-for="groupedMovie in groupedMovies"
+      v-for="groupedMovie in processedMovies"
       :key="`${groupedMovie.title}-${groupedMovie.audioType}`"
       :class="getVipClass(groupedMovie.vip)"
     >
@@ -64,41 +64,64 @@
       </div>
     </div>
   </div>
+  <div v-if="!boxOfficeData || !boxOfficeData.BoxOffice">
+    <p>Error loading movie data. Please try again later.</p>
+  </div>
 </template>
 
 <script setup>
-import { computed, onMounted, ref } from 'vue';
-// import boxOfficeData from '@/assets/json/0725-BoxOffice.json';
-// const baseUrl = process.env.BASE_URL || '/';
+import { onMounted, onUnmounted, ref, watch } from 'vue';
 
 const boxOfficeData = ref(null);
+const processedMovies = ref(null);
+let intervalId = null;
 
-onMounted(async () => {
+// function to fetch data from a JSON file
+async function fetchBoxOfficeData() {
   try {
     const response = await fetch('json/0725-BoxOffice.json');
     boxOfficeData.value = await response.json();
   } catch (error) {
     console.error('Error fetching the data: ', error);
   }
+}
+
+// Run when the component is mounted
+onMounted(() => {
+  fetchBoxOfficeData();
+  // setup interval to fetch data every 1 minute
+  intervalId = setInterval(() => {
+    fetchBoxOfficeData();
+  }, 60000);
 });
 
-const groupedMovies = computed(() => {
+onUnmounted(() => {
+  // clear the interval to prevent memory leak when the component is destroyed
+  if (intervalId) {
+    clearInterval(intervalId);
+  }
+});
+
+watch(boxOfficeData, newValue => {
+  // if data is not available or invalid, reset the processedMovies
+  if (!newValue || !newValue.BoxOffice) {
+    processedMovies.value = [];
+    return;
+  }
+
   const grouped = {};
   const currentTime = new Date();
 
-  // check if data has been fetched
-  if (!boxOfficeData.value || !boxOfficeData.value.BoxOffice) {
-    return [];
-  }
-
-  boxOfficeData.value.BoxOffice.forEach(movie => {
+  newValue.BoxOffice.forEach(movie => {
     const movieTime = parseTime(movie.time);
 
+    // only include movie with future showtimes
     if (movieTime > currentTime) {
       const key = `${getAudioType(movie.audio)}-${movie.movie}-${
         movie.censorship
       }-${movie.exhibition}`;
 
+      // if the movie is not yet grouped, create a new group
       if (!grouped[key]) {
         grouped[key] = {
           audioType: getAudioType(movie.audio),
@@ -116,20 +139,44 @@ const groupedMovies = computed(() => {
     }
   });
 
-  return Object.values(grouped);
+  processedMovies.value = Object.values(grouped);
 });
 
+const vipClasses = {
+  S: 'vip-premiere',
+  H: 'hybrid-premiere',
+  N: 'regular-movie',
+};
+
 function getVipClass(vip) {
-  switch (vip) {
-    case 'S':
-      return 'vip-premiere';
-    case 'H':
-      return 'hybrid-premiere';
-    case 'N':
-      return 'regular-movie';
-    default:
-      return 'regular-movie';
+  return vipClasses[vip];
+}
+
+const sessionPlaces = {
+  M: 'session-available',
+  P: 'session-few',
+  L: 'session-sold-out',
+};
+
+function getSessionClass(places, time) {
+  const timeDiff = (parseTime(time) - new Date()) / 60000;
+
+  if (places === 'L') {
+    return 'session-sold-out';
+  } else if (timeDiff > 0 && timeDiff <= 15) {
+    return 'session-starting-soon';
   }
+  return sessionPlaces[places] || '';
+}
+
+const audioTypes = {
+  D: 'DUB',
+  L: 'LEG',
+  V: 'ORI',
+};
+
+function getAudioType(audioCode) {
+  return audioTypes[audioCode] || 'Unknown';
 }
 
 function getCensorship(censorship) {
@@ -163,41 +210,6 @@ function getCensorship(censorship) {
   }
 }
 
-function getSessionClass(places, time) {
-  const currentTime = new Date();
-  const movieTime = parseTime(time);
-
-  const timeDiff = (movieTime - currentTime) / 60000;
-
-  if (places === 'L') {
-    return 'session-sold-out';
-  } else if (timeDiff > 0 && timeDiff <= 15) {
-    return 'session-starting-soon';
-  } else {
-    switch (places) {
-      case 'M':
-        return 'session-available';
-      case 'P':
-        return 'session-few';
-      default:
-        return '';
-    }
-  }
-}
-
-function getAudioType(audioCode) {
-  switch (audioCode) {
-    case 'D':
-      return 'DUB';
-    case 'L':
-      return 'LEG';
-    case 'V':
-      return 'ORI';
-    default:
-      return 'Unknown';
-  }
-}
-
 function getImage(exhibition) {
   switch (exhibition) {
     case 'NO':
@@ -217,24 +229,11 @@ function getImage(exhibition) {
 }
 
 function parseTime(timeStr) {
-  if (!timeStr) {
-    console.error('Invalid time string:', timeStr);
-    return null; // Return null for invalid inputs
-  }
+  if (!timeStr) return null;
 
-  const parts = timeStr.split('h');
-  if (parts.length !== 2) {
-    console.error('Time string is not properly formatted:', timeStr);
-    return null;
-  }
+  const [hours, minutes] = timeStr.split('h').map(Number);
 
-  const hours = parseInt(parts[0], 10);
-  const minutes = parseInt(parts[1], 10);
-
-  if (isNaN(hours) || isNaN(minutes)) {
-    console.error('Time parts are not numbers:', parts);
-    return null;
-  }
+  if (isNaN(hours) || isNaN(minutes)) return null;
 
   const date = new Date();
   date.setHours(hours, minutes, 0, 0);
@@ -243,9 +242,7 @@ function parseTime(timeStr) {
 
 function formatTime(timeStr) {
   const date = parseTime(timeStr);
-  if (!date) {
-    return 'Invalid time';
-  }
+  if (!date) return 'Invalid time';
 
   return date.toLocaleTimeString([], {
     hour: '2-digit',
