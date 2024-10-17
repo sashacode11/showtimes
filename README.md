@@ -24,26 +24,12 @@ An application that shows movie schedules, with automatic updates every minute. 
 2. **Run the app**:
 
     ```
-    npm run dev
-    ```
-
-### Deployment Steps:
-
-1. **Build the app**:
-
-    ```
-    npm run build
-    ```
-
-2. **Push to GitHub Pages**:
-
-    ```bash
-    git subtree push --prefix dist origin gh-pages
+    npm run serve
     ```
 
 ## How It Works
 
-- The app reads the `0725-BoxOffice.json` file and organizes movies by title, showtime, and exhibition type.
+- The app reads the JSON file and organizes movies by title, showtime, and exhibition type.
 - Movie sessions update every minute and adjust based on the current time.
 - Movies that have already started are automatically hidden.
 - Icons for censorship and exhibition types are displayed based on the data from the JSON file.
